@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+
+
+}
+.wrapper{
+    width:380px;
+    background-color: green;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.wrapper .title{
+    line-height:80px ;
+    background-color:blue ;
+    text-align: center;
+    border-radius:5px  5px 0px 0px ;
+    color: antiquewhite;
+    font-size:50px ;
+  
+
+    
+}
+.wrapper form{
+    padding: 30px 20px 25px 20px;
+}
+.wrapper form .row{
+    
+    height:45px ;
+   
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 60px;
+   
+   
+}
+.wrapper form .button input {
+    padding-left: 0;
+    background-color: blue;
+    border: 0px solid rgb(250, 252, 250);
+    font-size: 20px;
+    font-weight: 600px;
+    color: aliceblue;
+}
+.wrapper form .Singup-link{
+    text-align: center;
+    margin-top: 20px;
+   
+
+}
+.wrapper form .Singup-link a{
+    color:rgb(253, 253, 253);
+    font-size: 18px;
+    text-decoration: none;
+}
+.wrapper form .Singup-link a :hover{
+    text-decoration: underline;
+}
+
+.wrapper form .pass{
+    margin-top: 20px;
+   
+
+}
+.wrapper form .pass a{
+    color: rgb(253, 253, 253);
+    font-size: 18px;
+    text-decoration: none;
+}
+.wrapper form .pass a :hover{
+    text-decoration: underline;
+}
+.wrapper form .row label{
+    color: aliceblue;
+    font-size: large;
+}
+
+
+@media(max-width:700px){
+    .wrapper{
+        width:280px;
+        margin: .8rem;
+    background-color: green;
+    border-radius: 5px;
+    justify-content: space-between;
+    font-weight: 800px;
+    }
+    
+
+}
